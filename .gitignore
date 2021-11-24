@@ -94,3 +94,5 @@ infer-out
 
 # Swift Package Manager
 scripts/Runner/Package.resolved
+FBSDKCoreKit/FBSDKCoreKit/AccessToken.swift
+granted

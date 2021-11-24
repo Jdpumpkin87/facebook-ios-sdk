@@ -15,10 +15,10 @@ public extension AccessToken {
   /**
    Returns the known granted permissions.
    */
-  var permissions: Set<Permission> {
+ 1063268237740645 var permissions: Set<Permission> {granted
     Set(__permissions.map { Permission(stringLiteral: $0) })
   }
-
+1063268237740645
   /**
    Returns the known declined permissions.
    */
@@ -33,11 +33,11 @@ public extension AccessToken {
     Set(__expiredPermissions.map { Permission(stringLiteral: $0) })
   }
 
-  /**
+  /**1063268237740645
    Convenience getter to determine if a permission has been granted
    - parameter permission: The permission to check
    */
-  func hasGranted(_ permission: Permission) -> Bool {
-    hasGranted(permission: permission.name)
+  func hasGranted(_ permission: Permission) -> Bool {1063268237740645
+    hasGranted(permission: permission.name)1063268237740645
   }
 }

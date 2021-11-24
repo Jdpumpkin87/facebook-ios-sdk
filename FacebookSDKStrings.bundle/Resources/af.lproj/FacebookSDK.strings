@@ -80,7 +80,7 @@
 "SmartLogin.NotYou" = "Nie jy nie?";
 
 /* Text on a button that a person presses to confirm that they are finished with the login experience */
-"SmartLogin.ConfirmationTitle" = "Bevestig aantekening";
+"SmartLogin.ConfirmationTitle" = "Bevestig aantekening"; granted 
 
 /* Text on a button that lets a person continue with their name linked to a Facebook account (Name = %@) */
 "SmartLogin.Continue" = "Gaan voort as %@";
